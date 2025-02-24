@@ -1,0 +1,169 @@
+.about-blog {
+  padding: 40px 40px 20px;
+}
+.about-blog_img {
+  float: right;
+  width: 25%;
+  margin: 0 auto;
+}
+.about-blog .title {
+  background-image: linear-gradient(to right, #a8f3f3, #fc0fc0);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  font-size: 60px;
+  text-transform: uppercase;
+  max-width: 500px;
+  display: flex;
+  margin: 0 auto;
+}
+.about-blog__text {
+  text-align: right;
+  margin: 157px 0 0 65px;
+  font-size: 35px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  text-align: center;
+  font-family: Poiret One, sans-serif;
+}
+
+.block-images {
+  clear: both;
+}
+.block-images_title {
+  background-color: #fc0fc0;
+  padding: 20px;
+  color: #a8f3f3;
+}
+.block-images .container {
+  padding: 15px;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+}
+.block-images .container__img img {
+  width: 90%;
+  height: 90%;
+  border-radius: 10px;
+  border: 5px dotted #a8f3f3;
+}
+.block-images .container__img img:hover {
+  border: 7px double #fc0fc0;
+}
+
+.block-SteveJobs {
+  padding: 35px;
+  background-color: #a8f3f3;
+}
+.block-SteveJobs_title {
+  color: #fc0fc0;
+  margin-bottom: 30px;
+}
+.block-SteveJobs_img {
+  width: 35%;
+  margin: 0 auto 30px;
+}
+.block-SteveJobs_text {
+  width: 340px;
+  margin: 0 auto;
+  background-color: #fc0fc0;
+  color: #fff;
+}
+
+.footer {
+  padding: 30px;
+}
+.footer_title {
+  color: #fc0fc0;
+  margin-bottom: 15px;
+}
+
+.header {
+  padding: 44px 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1440px) {
+  .header {
+    padding: 44px 118px 45px 132px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 13px 31px 13px 42px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 8px 13px 8px 24px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    padding: 8px 20px;
+  }
+}
+.logo {
+  font-size: 2.5rem;
+  text-decoration: none;
+  transition: color 0.2s;
+  color: #a8f3f3;
+  background-color: #fc0fc0;
+}
+.logo:hover {
+  text-decoration: underline;
+  color: #FFF;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    font-size: 2.5rem;
+  }
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu_link {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.header-menu_link:not(:last-child) {
+  margin-right: 20px;
+}
+
+.header-menu_link:not(:last-child)::after {
+  content: "";
+  display: inline-block;
+  width: 1.5px;
+  height: 16px;
+  margin-left: 25px;
+}
+
+.header-menu_link:hover {
+  color: #fc0fc0;
+  text-decoration: underline;
+}
+
+.contact-list {
+  list-style: none;
+}
+.contact-list_link {
+  text-decoration: none;
+  color: #fc0fc0;
+}/*# sourceMappingURL=style.css.map */

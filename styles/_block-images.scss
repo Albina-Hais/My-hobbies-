@@ -1,0 +1,25 @@
+    .block-images {
+        clear: both;
+        &_title {
+            background-color: #fc0fc0;
+            padding: 20px;
+            color: #a8f3f3;
+        }
+        .container {
+            padding: 15px;
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            &__img {
+                img {
+                    width: 90%;
+                    height: 90%;
+                    border-radius: 10px;
+                    border: 5px dotted #a8f3f3;
+                }
+                img:hover {
+                    border: 7px double #fc0fc0;
+                }
+            }
+        }
+    }

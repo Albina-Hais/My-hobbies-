@@ -1,0 +1,18 @@
+.block-SteveJobs {
+    padding: 35px;
+    background-color: #a8f3f3;
+    &_title {
+        color: #fc0fc0;
+        margin-bottom: 30px;
+    }
+    &_img {
+        width: 35%;
+        margin: 0 auto 30px;
+    }
+    &_text {
+        width: 340px;
+        margin: 0 auto;
+        background-color: #fc0fc0;
+        color: #fff;
+    }
+}
